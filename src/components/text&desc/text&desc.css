@@ -1,0 +1,51 @@
+.text__Desc__containter {
+  padding: 1rem 2rem;
+  color: white;
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.text__left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100%;
+}
+
+.text__left {
+  font-size: 1.8rem;
+  text-transform: capitalize;
+  white-space: pre-line;
+}
+.text__Desc__containter h1 {
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.text__right {
+  font-size: 1rem;
+  word-spacing: 10px;
+}
+
+.text__right img {
+  width: 4%;
+}
+
+@media (max-width: 1092px) {
+  .halfs {
+    width: 100%;
+  }
+  .text__right {
+    margin-top: 2rem;
+  }
+}
+
+@media (max-width: 555px) {
+  .halfs {
+    width: 80% !important;
+    font-size: 0.5rem;
+  } 
+}

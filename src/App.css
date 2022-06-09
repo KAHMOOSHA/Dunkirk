@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@500;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "DM Sans", sans-serif;
+}
+
+body {
+  background-color: rgba(0, 0, 0, 0.948) !important;
+  background-image: url(components/media/effect-main.png);
+}
+button {
+  border: none;
+  background: none;
+}
+
+.halfs {
+  width: 48%;
+  /* min-width: 514px; */
+}
+
+.fade-in-from-right {
+  animation: fade-in-from-right 2s;
+  opacity: 1;
+}
+
+/* text&desc responsive */
+
+/*  */
+
+/* navBar responsive */
+  @media (max-width: 1092px) {
+    
+  }
+
+
+
+
+/*  */
+
+@keyframes fade-in-from-right {
+  0% {
+    opacity: 0;
+    transform: translateX(200px);
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.fade-in-from-left {
+  animation: fade-in-from-left 2s;
+  opacity: 1;
+}
+
+@keyframes fade-in-from-left {
+  0% {
+    opacity: 0;
+    transform: translateX(-200px);
+  }
+  100% {
+    opacity: 1;
+  }
+}

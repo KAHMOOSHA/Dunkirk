@@ -1,0 +1,18 @@
+.main__Banner {
+  width: 100%;
+  margin-bottom: 5rem;
+  overflow: hidden;
+}
+.carousel {
+    height: 100%;
+}
+.carousel-item{
+    max-height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Carousel video {
+  object-fit: cover;
+}
+
