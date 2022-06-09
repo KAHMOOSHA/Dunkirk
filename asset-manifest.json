@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Dunkirk/static/css/main.e81c04a7.css",
+    "main.js": "/Dunkirk/static/js/main.e5275b40.js",
+    "static/js/787.1cf0c936.chunk.js": "/Dunkirk/static/js/787.1cf0c936.chunk.js",
+    "static/media/vid2.mp4": "/Dunkirk/static/media/vid2.89a40209c9f42aba9b40.mp4",
+    "static/media/vid3.mp4": "/Dunkirk/static/media/vid3.86b2e1aaae5b339f3e1a.mp4",
+    "static/media/vid.mp4": "/Dunkirk/static/media/vid.8e60d9cb4aaa2fd422db.mp4",
+    "static/media/effect-main.png": "/Dunkirk/static/media/effect-main.5f21832fdc104e529fa8.png",
+    "static/media/oscarIcon.png": "/Dunkirk/static/media/oscarIcon.8f444190254bed62317f.png",
+    "index.html": "/Dunkirk/index.html",
+    "main.e81c04a7.css.map": "/Dunkirk/static/css/main.e81c04a7.css.map",
+    "main.e5275b40.js.map": "/Dunkirk/static/js/main.e5275b40.js.map",
+    "787.1cf0c936.chunk.js.map": "/Dunkirk/static/js/787.1cf0c936.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e81c04a7.css",
+    "static/js/main.e5275b40.js"
+  ]
+}
