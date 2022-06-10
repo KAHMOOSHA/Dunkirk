@@ -8,21 +8,41 @@
   padding: 1rem 2rem;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
   gap: 1.2%;
 }
 
 Figure {
   width: 19%;
   margin-bottom: 1rem;
+  min-width: 19%;
 }
-figure img:hover {
+/* figure img:hover {
   box-shadow: rgba(172, 167, 167, 0.25) 0px 0px 28px;
   transform: scale(1.01);
   transition: all 0.4s ease-in-out;
   /* transition-delay: 1s; */
   /* position: relative; */
-}
+ 
 
 .figure-caption {
   color: white;
+}
+
+
+@media (max-width: 894px) {
+  Figure{
+    width: 23%;
+  }
+  Figure h6{
+    font-size: 0.8rem;
+  }
+  
+}
+
+@media (max-width: 500px) {
+
+  Figure{
+    width: 40%;
+  }
 }
