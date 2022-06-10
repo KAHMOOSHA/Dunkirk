@@ -16,7 +16,7 @@ button {
 }
 
 .halfs {
-  width: 48%;
+  width: 50%;
   /* min-width: 514px; */
 }
 
@@ -30,15 +30,14 @@ button {
 /*  */
 
 /* navBar responsive */
-  @media (max-width: 1092px) {
-    
-  }
-
-
-
+@media (max-width: 1092px) {
+}
 
 /*  */
 
+::selection {
+  background: #1d202f; /* Gecko Browsers */
+}
 @keyframes fade-in-from-right {
   0% {
     opacity: 0;

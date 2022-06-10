@@ -1,0 +1,28 @@
+.Img__holder h1 {
+  padding: 0 2rem;
+  color: #d2cdaa;
+  font-size: 5rem;
+}
+
+.cast__Container {
+  padding: 1rem 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.2%;
+}
+
+Figure {
+  width: 19%;
+  margin-bottom: 1rem;
+}
+figure img:hover {
+  box-shadow: rgba(172, 167, 167, 0.25) 0px 0px 28px;
+  transform: scale(1.01);
+  transition: all 0.4s ease-in-out;
+  /* transition-delay: 1s; */
+  /* position: relative; */
+}
+
+.figure-caption {
+  color: white;
+}

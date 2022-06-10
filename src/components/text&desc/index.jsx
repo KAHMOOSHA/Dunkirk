@@ -1,11 +1,10 @@
 import React from "react";
 import "./text&desc.css";
-import oscar from "../media/oscarIcon.png";
 const TextDesc = () => {
   return (
     <div className="text__Desc__containter">
       <section className="text__left halfs  fade-in-from-left">
-        <h1>WON 3 OSCARS</h1>
+        <h1></h1>
         the enemy have driven the british and freanch armies to the sea. <br />
         trapped at dunkirk, they await their fate.
         <br />

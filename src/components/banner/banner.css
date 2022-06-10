@@ -15,4 +15,13 @@
 .Carousel video {
   object-fit: cover;
 }
+.Carousel img {
+  object-fit: contain;
+}
 
+@media (max-width: 555px) {
+  .carousel-control-prev-icon, .carousel-control-next-icon {
+    width: 1rem !important;
+    height: 1rem !important;
+  }
+}

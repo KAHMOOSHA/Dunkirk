@@ -24,6 +24,7 @@
   font-size: 1rem;
   font-weight: bold;
   text-transform: capitalize;
+  color: #d2cdaa;
 }
 .text__right {
   font-size: 1rem;
@@ -44,8 +45,11 @@
 }
 
 @media (max-width: 555px) {
+  .text__Desc__containter{
+    padding: 0;
+  }
   .halfs {
     width: 80% !important;
-    font-size: 0.5rem;
+    font-size: 1rem;
   } 
 }

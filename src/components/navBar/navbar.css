@@ -8,6 +8,7 @@
   position: fixed;
   right: 0;
   z-index: 10;
+  width: 100%;
 }
 .nav__bar:hover {
   background-color: #000;
@@ -52,7 +53,7 @@
 }
 .burger__menu {
   font-size: 2rem;
-  border-left: 1px solid white;
+  /* border-left: 1px solid white; */
   padding-left: 1.5rem;
   cursor: pointer;
   transition: all 1s ease-in-out;
@@ -69,11 +70,26 @@
 }
 
 @media (max-width: 555px) {
-  .ss{
+  .ss,
+  .nav__bar nav {
     display: none;
   }
-  .nav__bar{
+  .logo,
+  .side__menu {
+    border-left: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+  }
+  .burger__menu {
+    padding: 0;
+    font-size: 1rem;
+  }
+  .carousel-indicators {
+    display: none !important;
+  }
+
+  /* .nav__bar{
     left: 0;
     right: auto;
-  }
+  } */
 }
